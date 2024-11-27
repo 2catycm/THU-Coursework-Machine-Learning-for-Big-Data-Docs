@@ -560,7 +560,7 @@ class HingeSupportVectorClassifier(L.LightningModule):
 </details>
 
 ``` python
-from namable_classify.utils import print_model_pretty
+from namable_classify.infra import print_model_pretty
 ```
 
 ``` python
@@ -906,7 +906,7 @@ enabled.\*
 <summary>Exported source</summary>
 
 ``` python
-from namable_classify.utils import append_dict_list, ensure_array
+from namable_classify.infra import append_dict_list, ensure_array
 from typing import Any
 import numpy as np
 ```
